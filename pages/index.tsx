@@ -30,10 +30,10 @@ export default function Home() {
           <div className={styles.heroText}>
             <h1>Brand Bikega</h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-              quod, voluptatum, quia, voluptas quas voluptates quibusdam
-              voluptatibus quae quidem quos nemo. Quisquam, quae. Quisquam
-              voluptates quibusdam voluptatibus quae quidem quos nemo.
+            Not convinced that branding with influencers can lead to real business results and high return on investment ? <br/><br/>
+ Here we are to prove this,
+ It has been found that 14% of millennials bought something because a blogger or influencer recommended it.
+
             </p>
             <button><a href="#about">Learn More</a></button>
           </div>
@@ -63,7 +63,7 @@ export default function Home() {
           <div className={styles.brandInner}>
             <div className={styles.brandHeader}>
               <h1 className={styles.brandTitle}>
-                We're ready to share our advice and experience</h1>
+                Meet Our Mega-Influencers Who Are Crushing It....</h1>
               <p className={styles.brandHeaderDesc}>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
                 ipsum
@@ -86,7 +86,7 @@ export default function Home() {
                 <div className={styles.brandBoxItemContent}>
                   <FaGraduationCap className={styles.brandBoxItemIcon} />
                   <a href="https://www.youtube.com/watch?v=Q7o0X1Z0Z9s" target="_blank">
-                    <h2 className={styles.brandBoxItemTitle}>Education</h2>
+                    <h2 className={styles.brandBoxItemTitle}> Corporates</h2>
                   </a>
                   <p className={styles.brandBoxItemDesc}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>

@@ -113,6 +113,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 1rem 4rem;
+    background: linear-gradient(90deg, #fb7747 0%, #ff4646 100%);
     min-height: 100vh;
 }
 
@@ -167,6 +168,7 @@
 
 .brand {
     background-color: #fff;
+    background: linear-gradient(90deg, #fb7747 0%, #ff4646 100%);
 }
 
 .brandInner {
@@ -262,6 +264,7 @@
     padding: 1rem 4rem;
     min-height: 100vh;
     background-color: #f4f1f1;
+    background: linear-gradient(90deg, #fb7747 0%, #ff4646 100%);
 }
 
 .contactImage {
