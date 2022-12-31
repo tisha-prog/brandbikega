@@ -55,7 +55,7 @@
     justify-content: space-between;
     padding: 1rem 4rem;
     min-height: 100vh;
-    background: linear-gradient(90deg, #fb7747 0%, #ff4646 100%);
+    background-image: linear-gradient(to right top, #401f5b, #3c215b, #38225a, #352459, #312558, #2e2658, #2c2758, #292858, #262a59, #242b5a, #212d5a, #1e2e5b);
 }
 
 .heroText {
@@ -113,7 +113,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 1rem 4rem;
-    background: linear-gradient(90deg, #fb7747 0%, #ff4646 100%);
+    background-image: linear-gradient(to right top, #401f5b, #3c215b, #38225a, #352459, #312558, #2e2658, #2c2758, #292858, #262a59, #242b5a, #212d5a, #1e2e5b);
     min-height: 100vh;
 }
 
@@ -136,14 +136,14 @@
 .aboutText h1 {
     font-size: 3rem;
     font-weight: 700;
-    color: #000;
+    color: #fff;
     margin-bottom: 1rem;
 }
 
 .aboutText p {
     font-size: 1.2rem;
     font-weight: 400;
-    color: #000;
+    color: #fff;
     margin-bottom: 1rem;
 }
 
@@ -161,14 +161,14 @@
 
 .aboutText button:hover {
     background: transparent;
-    color: black;
+    color: #fff;
     border: 1px solid black;
     transition: all 0.3s ease;
 }
 
 .brand {
     background-color: #fff;
-    background: linear-gradient(90deg, #fb7747 0%, #ff4646 100%);
+    background-image: linear-gradient(to right top, #401f5b, #3c215b, #38225a, #352459, #312558, #2e2658, #2c2758, #292858, #262a59, #242b5a, #212d5a, #1e2e5b);
 }
 
 .brandInner {
@@ -188,11 +188,12 @@
 
 .brandTitle {
     font-size: 3rem;
+    color: #fff;
     font-weight: 700;
 }
 
 .brandHeaderDesc {
-    color: #000;
+    color: rgb(188, 182, 182);
     margin-top: 1rem;
     font-size: 1.5rem;
 }
@@ -264,7 +265,7 @@
     padding: 1rem 4rem;
     min-height: 100vh;
     background-color: #f4f1f1;
-    background: linear-gradient(90deg, #fb7747 0%, #ff4646 100%);
+    background-image: linear-gradient(to right top, #401f5b, #3c215b, #38225a, #352459, #312558, #2e2658, #2c2758, #292858, #262a59, #242b5a, #212d5a, #1e2e5b);
 }
 
 .contactImage {
