@@ -1,9 +1,8 @@
 .main {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    min-height: 100vh;
+    min-height: var(--min-height);
 }
 
 .nav {
@@ -43,7 +42,7 @@
     padding: 0.2rem 0.5rem;
 }
 
-.navLinksItem:hover{
+.navLinksItem:hover {
     background: transparent;
     border-bottom: 1px solid #000;
     transition: all 0.3s ease;
@@ -54,8 +53,8 @@
     align-items: center;
     justify-content: space-between;
     padding: 1rem 4rem;
-    min-height: 100vh;
-    background: linear-gradient(90deg, #fb7747 0%, #ff4646 100%);
+    min-height: var(--min-height);
+    background: var(--bg-gradient);
 }
 
 .heroText {
@@ -113,7 +112,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 1rem 4rem;
-    min-height: 100vh;
+    min-height: var(--min-height);
 }
 
 .aboutImage {
@@ -165,79 +164,6 @@
     transition: all 0.3s ease;
 }
 
-.brand {
-    background-color: #fff;
-}
-
-.brandInner {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    height: 100vh;
-    padding: 0 7%;
-}
-
-.brandHeader {
-    text-align: center;
-    width: 50%;
-}
-
-.brandTitle {
-    font-size: 3rem;
-    font-weight: 700;
-}
-
-.brandHeaderDesc {
-    color: #000;
-    margin-top: 1rem;
-    font-size: 1.5rem;
-}
-
-.brandBox {
-    padding: 1rem;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
-}
-
-.brandBoxItem {
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border: 1px solid #000;
-    border-radius: 1rem;
-    padding: 2rem;
-    transition: all 0.3s ease;
-}
-
-.brandBoxItem:hover {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    transform: translateY(-5px) scale(1.05);
-}
-
-.brandBoxItemContent {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 4px;
-}
-
- .brandBoxItemIcon {
-    font-size: 6rem;
-    color: #000;
- }
-
- .brandBoxItemTitle {
-    font-size: 1.8rem;
-    font-weight: 700;
- }
-
-.brandBoxItemDesc {
-    color: #000;
-}
-
-
 .waves {
     position: absolute;
     bottom: 0;
@@ -260,7 +186,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 1rem 4rem;
-    min-height: 100vh;
+    min-height: var(--min-height);
     background-color: #f4f1f1;
 }
 
@@ -452,4 +378,334 @@
 .footerMadeLink:hover {
     color: #fff;
     text-decoration: underline;
+}
+
+.creatersHero {
+    background: var(--bg-gradient);
+    padding: 1rem 4rem;
+    min-height: var(--min-height);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.creatersHeroText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+
+.creatersHeroText h1 {
+    font-size: 2rem;
+    font-weight: 400;
+    color: #fff;
+    font-family: 'Comic Sans MS', cursive;
+}
+
+.creatersHeroText p {
+    font-size: 4rem;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+}
+
+.wavesCreaters {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.wavesCreaters .wavesCreatersImg {
+    position: relative;
+    display: block;
+    width: calc(210% + 1.3px);
+    height: 80px;
+    transform: rotateY(180deg);
+}
+
+.creatersInner {
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 1rem 4rem;
+}
+
+.creatersHeading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 1rem;
+}
+
+.creatersHeadingTitle {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--black);
+}
+
+.creatersHeadingText {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--black);
+}
+
+.creatersCards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+.creatersCard {
+    background-color: var(--white);
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.creatersCard:hover {
+    transform: scale(1.05);
+    background-color: #e5e7eb;
+}
+
+.creatersCardImgDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 4px;
+    margin-bottom: 1rem;
+}
+
+.creatersCardImg {
+    background-color: #64748b;
+    border-radius: 10px;
+}
+
+.creatersCardInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 4px;
+}
+
+.creatersCardInfoName {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--black);
+}
+
+.creatersCardInfoTitle {
+    color: #64748b;
+}
+
+.creatersCardInfoSocial {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.creatersCardInfoSocialIcon {
+    color: red;
+}
+
+.hamburger {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .hamburger {
+        display: block;
+        position: fixed;
+        top: 1rem;
+        right: 1rem;
+        z-index: 999;
+        cursor: pointer;
+    }
+
+    .navLinks {
+        display: none;
+
+    }
+
+    .navLinksActive {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        min-height: 100vh;
+        background: linear-gradient(180deg, #fb7747 0%, #ff464682 100%);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        z-index: 999;
+        animation: slideIn 0.5s ease-in-out;
+    }
+
+    .navLinksActive a {
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: #ffffff;
+        text-decoration: none;
+        transition: all 0.3s ease;
+    }
+
+    .navLinksActive a:hover {
+        color: #000000;
+    }
+
+    @keyframes slideIn {
+        0% {
+            top: -100%;
+        }
+
+        100% {
+            top: 0;
+        }
+    }
+}
+
+.brand {
+    min-height: var(--min-height);
+    display: flex;
+    background-color: gray;
+}
+
+.brandInner {
+    background: linear-gradient(0deg, #fb7747 0%, #ff464682 100%);
+    max-width: 80rem;
+    padding: 1rem 4rem;
+    margin: auto auto;
+    border-radius: 10px;
+}
+
+.brandHeading h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.brandInner .brandContent {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5rem;
+    gap: 2rem;
+}
+
+.brandContent .brandContentCategory .brandContentCategoryList {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.brandContentCategoryList .brandContentCategoryListItem {
+    padding: 0.3rem 1rem;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.brandContentCategoryListItem:hover {
+    transform: scale(1.05);
+}
+
+.brandContentCategoryListItem.active {
+    background-color: #fb7747;
+    color: #ffffff;
+}
+
+.brandContent .brandContentList {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+.brandContentList .brandContentListItem {
+    padding: 1rem;
+    background: linear-gradient(180deg, #fb7747 0%, #ff464682 100%);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.brandContentListItem:hover {
+    transform: scale(1.05);
+}
+
+.brandContentListItemImageBox {
+    position: relative;
+}
+
+.brandContentListItemImageBox .brandContentListItemImage {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.brandContentListItemImageBox .brandContentListItemImageBoxSocial {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #1e293b;
+    gap: 1rem;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.brandContentListItemImageBoxSocialItem a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #334155;
+    border: 1px solid #2563eb;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+.brandContentList.brandContentListItemContent {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.brandContentListItemContentHeading h3 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.brandContentListItemContentCategory p {
+    font-size: 1rem;
+    font-weight: normal;
+    color: #ffffff;
 }

@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* background: linear-gradient(90deg, #fb7747 0%, #ff4646 100%); */
+/* varuable  */
+
+@layer base {
+    :root {
+        --bg-gradient: linear-gradient(90deg, #fb7747 0%, #ff4646 100%);
+        --black: #000;
+        --white: #fff;
+        --min-height: 100vh;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .show {
+        display: block;
+    }
+}
