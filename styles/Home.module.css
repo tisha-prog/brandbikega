@@ -441,17 +441,32 @@
     background: linear-gradient(0deg, #fb7747 0%, #ff464682 100%);
     max-width: 80rem;
     padding: 1rem 4rem;
-    margin: auto auto;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
 }
 
-.brandHeading h2 {
+.brandInner .brandHeader {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+
+.brandHeader .brandTitle {
     font-size: 2rem;
     font-weight: 700;
     color: #ffffff;
-    text-align: center;
-    margin: 1rem 0;
 }
+
+.brandHeader .brandHeaderDesc {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #ffffff;
+}
+
 
 .brandInner .brandContent {
     display: flex;
