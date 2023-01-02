@@ -30,12 +30,8 @@ export default function Layout(props: { children: React.ReactNode }) {
             href: '#brand'
         },
         {
-            title: 'Creaters',
-            href: '/creaters'
-        },
-        {
             title: 'About',
-            href: '#about'
+            href: '/about'
         },
         {
             title: 'Contact',
@@ -79,10 +75,6 @@ export default function Layout(props: { children: React.ReactNode }) {
                 {
                     name: 'About',
                     url: '/about',
-                },
-                {
-                    name: 'Creaters',
-                    url: '/creaters',
                 },
                 {
                     name: 'Contact',

@@ -127,14 +127,14 @@
 .aboutText h1 {
     font-size: 3rem;
     font-weight: 700;
-    color: #000;
+    color: var(--white);
     margin-bottom: 1rem;
 }
 
 .aboutText p {
     font-size: 1.2rem;
     font-weight: 400;
-    color: #000;
+    color: var(--white);
     margin-bottom: 1rem;
 }
 
@@ -152,8 +152,8 @@
 
 .aboutText button:hover {
     background: transparent;
-    color: black;
-    border: 1px solid black;
+    color: var(--white);
+    border: 1px solid var(--white);
     transition: all 0.3s ease;
 }
 
@@ -412,7 +412,8 @@
     .navLinksActive a {
         font-size: 1.2rem;
         font-weight: 600;
-        color: #ffffff;
+        color: var(--white);
+        ;
         text-decoration: none;
         transition: all 0.3s ease;
     }
@@ -439,8 +440,7 @@
 
 .brandInner {
     background: linear-gradient(0deg, #fb7747 0%, #ff464682 100%);
-    max-width: 80rem;
-    padding: 1rem 4rem;
+    padding: 4rem 4rem;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -448,25 +448,12 @@
     align-items: center;
 }
 
-.brandInner .brandHeader {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    align-items: center;
-}
-
-.brandHeader .brandTitle {
+.brandTitle {
     font-size: 2rem;
     font-weight: 700;
-    color: #ffffff;
+    color: var(--white);
+    text-align: center;
 }
-
-.brandHeader .brandHeaderDesc {
-    font-size: 1.2rem;
-    font-weight: 500;
-    color: #ffffff;
-}
-
 
 .brandInner .brandContent {
     display: flex;
@@ -484,7 +471,7 @@
 
 .brandContentCategoryList .brandContentCategoryListItem {
     padding: 0.3rem 1rem;
-    background-color: #ffffff;
+    background-color: var(--white);
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
@@ -496,7 +483,7 @@
 
 .brandContentCategoryListItem.active {
     background-color: #fb7747;
-    color: #ffffff;
+    color: var(--white);
 }
 
 .brandContent .brandContentList {
@@ -515,7 +502,8 @@
 
 .brandContentListItemImageBox {
     position: relative;
-    background-color: #ffffff;
+    background-color: var(--white);
+    ;
     border-radius: 10px;
     padding: 0.5rem;
     margin-bottom: 1rem;
@@ -560,7 +548,8 @@
     padding: 0.5rem 1rem;
     background-color: #334155;
     border: 1px solid #2563eb;
-    color: #ffffff;
+    color: var(--white);
+    ;
     border-radius: 10px;
 }
 
@@ -573,18 +562,21 @@
 .brandContentListItemContentHeading h3 {
     font-size: 1.2rem;
     font-weight: 700;
-    color: #ffffff;
+    color: var(--white);
+    ;
 }
 
 .brandContentListItemContentCategory p {
     font-size: 1rem;
     font-weight: normal;
-    color: #ffffff;
+    color: var(--white);
+    ;
 }
 
 .imgageBox {
     position: relative;
-    background-color: #ffffff;
+    background-color: var(--white);
+    ;
     border-radius: 10px;
     padding: 0.5rem;
     margin-bottom: 1rem;
@@ -674,7 +666,8 @@
 
 .imageBox {
     position: relative;
-    background-color: #ffffff;
+    background-color: var(--white);
+    ;
     border-radius: 10px;
 }
 
