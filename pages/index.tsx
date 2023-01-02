@@ -229,9 +229,9 @@ export default function Brandbikega() {
           <div className={styles.heroText}>
             <h1>Brand Bikega</h1>
             <p>
-            Not convinced that branding with influencers can lead to real business results and high return on investment ? <br/><br/>
- Here we are to prove this,
- It has been found that 14% of millennials bought something because a blogger or influencer recommended it.
+              Not convinced that branding with influencers can lead to real business results and high return on investment ? <br /><br />
+              Here we are to prove this,
+              It has been found that 14% of millennials bought something because a blogger or influencer recommended it.
 
             </p>
             <button><a href="#about">Learn More</a></button>
@@ -262,14 +262,8 @@ export default function Brandbikega() {
         {/* brand / feature section */}
         <section className={styles.brand} id="brand">
           <div className={styles.brandInner}>
-            <div className={styles.brandHeader}>
-              <h1 className={styles.brandTitle}>
-                Meet Our Mega-Influencers Who Are Crushing It....</h1>
-              <p className={styles.brandHeaderDesc}>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
-                ipsum
-                dolor sit amet consectetur adipisicing elit.</p>
-            </div>
+            <h2 className={styles.brandTitle}>
+              Meet Our Mega-Influencers Who Are Crushing It....</h2>
             <div className={styles.brandContent}>
               <div className={styles.brandContentCategory}>
                 <ul className={styles.brandContentCategoryList}>
